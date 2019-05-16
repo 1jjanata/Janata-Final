@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+body {
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.topnav {
+  overflow: hidden;
+  background-color: #333;
+}
+
+.topnav a {
+  float: left;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+.topnav a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+.topnav a.active {
+  background-color: #4CAF50;
+  color: white;
+}
+</style>
+</head>
+<body>
+
+<div class="topnav">
+  <a class="active" href="#home">Home</a>
+  <a href="#news">Bauer</a>
+  <a href="#contact">CCM</a>
+  <a href="#about">Warrior</a>
+</div>
+
+<div style="padding-left:16px">
+  <h2>Great Hockey</h2>
+  <p>Some of the best hockey equipment in the market.</p>
+</div>
+
+</body>
+</html>
+
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #f1f1f1;
+  padding: 20px;
+  font-family: Arial;
+}
+
+/* Center website */
+.main {
+  max-width: 1000px;
+  margin: auto;
+}
+
+h1 {
+  font-size: 50px;
+  word-break: break-all;
+}
+
+.row {
+  margin: 8px -16px;
+}
+
+/* Add padding BETWEEN each column */
+.row,
+.row > .column {
+  padding: 8px;
+}
+
+/* Create four equal columns that floats next to each other */
+.column {
+  float: left;
+  width: 25%;
+}
+
+/* Clear floats after rows */ 
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Content */
+.content {
+  background-color: white;
+  padding: 10px;
+}
+
+/* Responsive layout - makes a two column-layout instead of four columns */
+@media screen and (max-width: 900px) {
+  .column {
+    width: 50%;
+  }
+}
+
+/* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 600px) {
+  .column {
+    width: 100%;
+  }
+}
+</style>
+</head>
+<body>
+
+<!-- MAIN (Center website) -->
+<div class="main">
+
+
+
+<!-- Portfolio Gallery Grid -->
+<div class="row">
+  <div class="column">
+    <div class="content">
+      <img src="https://cdn.hockeymonkey.com/media/catalog/product/cache/3/small_image/600x/9df78eab33525d08d6e5fb8d27136e95/b/a/bauer-hockey-stick-vapor-1x-lite-grip-int-icon.jpg" alt="Mountains" style="width:100%">
+      <h3>Bauer 1x Lite</h3>
+      <p>This innovative design uses 13% thinner carbon fibers at different angles to create a stronger more responsive blade. The blade is 7% lighter with an 11% improvement in taper recoil. This benefits the player with quicker stickhandling movement and an even quicker release.</p>
+    </div>
+  </div>
+  <div class="column">
+    <div class="content">
+    <img src="data:image/jpeg;base64,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" alt="Lights" style="width:100%">
+      <h3>CCM Ribcor Trigger</h3>
+      <p>Another addition to the CCM RibCor Trigger 3D Senior Stick is the addition of X-Flow Technology. This new technology is a molding process that removes any excess resin and voids within the stick to increase shaft quality, consistency, and durability all while reducing the overall weight of the stick.</p>
+    </div>
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  max-width: 300px;
+  margin: auto;
+  text-align: center;
+  font-family: arial;
+}
+
+.price {
+  color: grey;
+  font-size: 22px;
+}
+
+.card button {
+  border: none;
+  outline: 0;
+  padding: 12px;
+  color: white;
+  background-color: #000;
+  text-align: center;
+  cursor: pointer;
+  width: 100%;
+  font-size: 18px;
+}
+
+.card button:hover {
+  opacity: 0.7;
+}
+</style>
+</head>
+<body>
+
+<h2 style="text-align:center">Warrior</h2>
+
+<div class="card">
+  <img src="https://i2.wp.com/warriorhockey.com/wp-content/uploads/2017/03/screen-shot-2017-03-15-at-10-59-01-am.png?resize=648%2C507&ssl=1" alt="Denim Jeans" style="width:100%">
+  <h1>Warrior Alpha QX Gloves</h1>
+  <p class="price">$159.99</p>
+  <p>The perfect balance of traditional looks and modern anatomical feel that improves puck control and better protects your hands. Allows the 4-Roll glove to contour to the natural shape of your hand, maximizing mobility and improving protection.</p>
+  <p><button>Add to Cart</button></p>
+</div>
+
+</body>
+</html>
+
+
+
+
+ 
+  
+
+
+
+
+
+
+ 
+  
